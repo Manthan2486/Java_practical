@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class pra2 {
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         System.out.println("Enter Value Of A: ");
-        int a = in.nextInt();
+        int a = sc.nextInt();
         System.out.println("Enter Value Of B: ");
-        int b = in.nextInt();
+        int b = sc.nextInt();
         System.out.println("Enter Value Of C: ");
-        int c = in.nextInt();
+        int c = sc.nextInt();
         if(a>b && a>c){
             System.out.println(a+" Is Greater");
         }
