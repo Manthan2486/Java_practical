@@ -2,6 +2,7 @@ public class pra13 {
         public static void main(String[] args) {
 
             String str = "Hello, World!";
+            System.out.println("Main String: " + str);
             char cA = str.charAt(5);
             System.out.println("Character at index 5: " + cA);
     
